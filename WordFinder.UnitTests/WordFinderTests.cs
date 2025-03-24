@@ -141,6 +141,11 @@ public class WordFinderTests
 		wordsFounded.Should().Contain("red");
 		wordsFounded.Should().Contain("black");
 		wordsFounded.Should().Contain("blue");
+
+		foreach (var streams in matrix)
+		{
+			Console.WriteLine(streams);
+		}
 	}
 
 	[TestMethod]
