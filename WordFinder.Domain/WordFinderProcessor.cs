@@ -22,6 +22,12 @@ public class WordFinderProcessor
 
 	/// <summary>
 	/// Finds any word in matrix using <paramref name="wordStream"/> as parameter.
+	/// <br></br>
+	/// The process works with two steps:
+	/// <br></br>
+	/// 1. Check the word existence in horizontal side
+	/// 2. Creates a stream with vertical letters
+	/// 3. Check the word existence with the new stream
 	/// </summary>
 	/// <param name="wordStream">Words to find in the matrix</param>
 	/// <returns>
