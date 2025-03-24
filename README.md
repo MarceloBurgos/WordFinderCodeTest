@@ -15,6 +15,7 @@ This project does not implement any security
 # User imputs
 
 Sample input that could be used to check functionality.
+
 *The expected result should be the following words:*
 	
 	1. hello
