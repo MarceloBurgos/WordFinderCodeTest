@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using WordFinder.Api.Models;
 using WordFinder.Domain;
 
 namespace WordFinder.Api.Controllers;
